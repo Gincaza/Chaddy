@@ -1,6 +1,6 @@
 <div align="center">
 
-# StudyBuddy
+# Studying
 </div>
 
 ### Cloning the repository
