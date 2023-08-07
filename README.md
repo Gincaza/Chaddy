@@ -1,28 +1,38 @@
-<div align="center">
+# Chaddy
 
-# Studying
-</div>
+## Overview
 
-### Cloning the repository
+The Technology Discussion Platform is a social network that provides a virtual space for constructive debates and meaningful interactions related to various technological topics. Users can join existing discussions, create new topics, share knowledge, and connect with other community members.
+
+## Key Features
+
+- **Thematic Forums**: Intuitively organized forums enable users to easily find discussions of their interest.
+
+- **Customized Profiles**: Members can create detailed profiles highlighting their specializations and technological interests.
+
+- **Social Interaction**: Users can comment, like, and share topics, fostering an active and engaging community.
+
+- **Personalized Notifications**: Users can customize notification preferences to stay informed about relevant discussions.
+
+## Configuração do Ambiente
 
 --> Clone the repository using the command below :
 ```bash
-git clone https://github.com/divanov11/StudyBud.git
+git clone https://github.com/Gincaza/Chaddy.git
 
 ```
 
 --> Move into the directory where we have the project files : 
 ```bash
-cd StudyBud
+cd Chaddy
 
 ```
 
 --> Create a virtual environment :
 ```bash
-# Let's install virtualenv first
 pip install virtualenv
 
-# Then we create our virtual environment
+# Create our virtual environment
 virtualenv envname
 
 ```
@@ -30,12 +40,6 @@ virtualenv envname
 --> Activate the virtual environment :
 ```bash
 envname\scripts\activate
-
-```
-
---> Install the requirements :
-```bash
-pip install -r requirements.txt
 
 ```
 
@@ -49,29 +53,6 @@ python manage.py runserver
 
 ```
 
-> ⚠ Then, the development server will be started at http://127.0.0.1:8000/
-
-#
-
-### App Preview :
-
-<table width="100%"> 
-<tr>
-<td width="50%">      
-&nbsp; 
-<br>
-<p align="center">
-  Feed Home
-</p>
-<img src="https://user-images.githubusercontent.com/72341453/134747262-0a92233d-8010-40f8-84c5-8d94895aac44.PNG">
-</td> 
-<td width="50%">
-<br>
-<p align="center">
-  Room Conversation Preview
-</p>
-<img src="https://user-images.githubusercontent.com/72341453/134747155-3ca5b55f-b064-4741-aeae-abe90bddf41e.PNG">  
-</td>
-</table>
+> ⚠ Then, the server will be started at http://127.0.0.1:8000/
 
 
