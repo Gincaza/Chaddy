@@ -16,19 +16,19 @@ The Technology Discussion Platform is a social network that provides a virtual s
 
 ## Configuração do Ambiente
 
---> Clone the repository using the command below :
+- Clone the repository using the command below :
 ```bash
 git clone https://github.com/Gincaza/Chaddy.git
 
 ```
 
---> Move into the directory where we have the project files : 
+- Move into the directory where we have the project files : 
 ```bash
 cd Chaddy
 
 ```
 
---> Create a virtual environment :
+- Create a virtual environment :
 ```bash
 pip install virtualenv
 
@@ -37,7 +37,7 @@ virtualenv envname
 
 ```
 
---> Activate the virtual environment :
+- Activate the virtual environment :
 ```bash
 envname\scripts\activate
 
@@ -47,7 +47,7 @@ envname\scripts\activate
 
 ### Running the App
 
---> To run the App, we use :
+- To run the App, we use :
 ```bash
 python manage.py runserver
 
